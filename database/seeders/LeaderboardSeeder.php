@@ -15,7 +15,7 @@ class LeaderboardSeeder extends Seeder
      */
     public function run()
     {
-        DB::statement("INSERT INTO leaderboard (cluster, name, score, playtime) VALUES
+        DB::statement("INSERT INTO leaderboards (cluster, name, score, playtime) VALUES
             ('4man', 'Iron Wolves', 98200, 1450),
             ('4man', 'Stone Legion', 104500, 1620),
             ('4man', 'Night Raiders', 87500, 1380),
