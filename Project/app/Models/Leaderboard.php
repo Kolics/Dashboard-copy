@@ -4,7 +4,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Leaderboard extends Model{
     protected $fillable = [
-        'id',
         'cluster',
         'name',
         'score',
